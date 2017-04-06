@@ -1,0 +1,55 @@
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+# ############
+# # it's better to unpack these files and commit the raw source
+# # git has its own built in compression methods
+ *.7z
+ *.dmg
+ *.gz
+ *.iso
+ *.jar
+ *.rar
+ *.tar
+ *.zip
+#
+# # Logs and databases #
+# ######################
+# *.log
+# *.sql
+# *.sqlite
+#
+# # OS generated files #
+# ######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Project specific working files #
+# ################################
+.idea
+node_modules
+.sass-cache
+fonts/*.eot
+fonts/*.svg
+fonts/*.ttf
+fonts/*.woff
+fonts/*.woff2
+fonts/et-book-gh-pages
+src/**/*.html
+!src/templates/*.html
+dist/
+src/pm-content/
+src/pdf
+src/md-content/
+src/html-content/
+rivendellweb-data-storage-ca7e22972b0a.json
+src/slides/

@@ -1,0 +1,17 @@
+{
+  "name": "starter",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Carlos Araya <carlos.araya@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

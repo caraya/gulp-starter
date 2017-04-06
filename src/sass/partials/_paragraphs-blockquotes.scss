@@ -1,0 +1,39 @@
+/* Handling blockquotes */
+blockquote {
+  font-size: 1.5em;
+  line-height: 1.458333;
+  border-left: .5em solid $gun-metal;
+  padding-left: 1.5em;
+
+  @include media-queries(phone) {
+    font-size: 1.25em;
+    line-height: 1.25;
+  }
+}
+//
+//p:first-of-type::first-letter {
+//  display: inline-block;
+//  color: $red;
+//  float: left;
+//  font-size: 10em;
+//  line-height: .85em;
+//  padding: 0 .1em 0 0;
+//}
+
+//// THe first letter of the first paragraph inside a list item should get normal formatting
+//li {
+//  p:first-of-type::first-letter {
+//    display: block;
+//    color: #000;
+//    font-size: 1em;
+//    line-height: 1;
+//  }
+//}
+
+// First paragraph drop cap for first letter
+//@supports (initial-letter: 8) or (-webkit-initial-letter: 8) {
+//  p:first-of-type:first-letter {
+//    initial-letter: 4;
+//    color: $red;
+//  }
+//}
